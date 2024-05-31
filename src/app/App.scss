@@ -1,0 +1,40 @@
+@import "animate.css/animate";
+
+@font-face {
+  font-family: "Extatica";
+  src: url(./../assets/fonts/Extatica-Regular.otf) format("otf");
+}
+
+@font-face {
+  font-family: "Permanent Marker";
+  src: url(./../assets/fonts/PermanentMarker-Regular.ttf) format("ttf");
+}
+
+// @font-face {
+//   font-family: "Coolvetica";
+//   src: url(./../assets/fonts/CoolveticaRg-Regular.woff2) format("woff2");
+// }
+
+html {
+  --primary: #7700ff;
+  --secondary: #ff0000;
+  --accent: #000;
+  --neutral: #fff;
+  --info: #778ad4;
+  --bg: #e3e6e6;
+}
+
+* {
+  // scrollbar-width: none;
+  // &::-webkit-scrollbar {
+  //   width: 0;
+  //   height: 0;
+  // }
+  font-family: "Extatica";
+  scroll-behavior: smooth !important;
+}
+
+::selection {
+  background-color: #ffcb74;
+  color: #181818;
+}

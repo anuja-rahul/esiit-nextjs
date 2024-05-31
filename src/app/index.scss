@@ -1,0 +1,23 @@
+.hero {
+  z-index: 1 !important;
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(116, 25, 172, 0.377) 15%,
+      rgba(1, 8, 70, 0.666) 95%
+    ),
+    url("./../assets/images/bg-smoke-alt.jpg") center repeat !important;
+}
+
+// .hero-title {
+//   animation: 1s slideInDown 1s;
+//   animation-fill-mode: both;
+// }
+
+.hero-btn {
+  transition: 0.5s;
+  &:hover {
+    color: #fff;
+    background: var(--accent);
+  }
+}

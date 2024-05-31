@@ -1,0 +1,36 @@
+.nav-btn {
+  font-family: "Extatica" !important;
+  font-size: 0.9rem;
+  transition: all 0.5s;
+
+  &:hover,
+  &.active {
+    color: var(--primary) !important;
+
+    &::after {
+      content: "";
+      width: 50%;
+      height: 1.5px;
+      background: var(--primary);
+      position: absolute;
+      bottom: -0.25rem;
+      // left: 1rem;
+    }
+  }
+}
+
+// .active {
+//   color: var(--primary);
+// }
+
+.header-navbar {
+  li {
+    list-style: none;
+    font-weight: 600;
+  }
+}
+
+.navbar-main {
+  animation: fadeIn 1.5s !important;
+  animation-fill-mode: forwards;
+}
