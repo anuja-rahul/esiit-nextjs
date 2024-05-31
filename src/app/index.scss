@@ -3,10 +3,10 @@
   background:
     radial-gradient(
       circle at center,
-      rgba(116, 25, 172, 0.377) 15%,
-      rgba(1, 8, 70, 0.666) 95%
+      rgba(116, 25, 172, 0.355) 15%,
+      rgba(1, 8, 70, 0.866) 95%
     ),
-    url("./../assets/images/bg-smoke-alt.jpg") center repeat !important;
+    url("./../assets/images/gamer-bg.jpg") center repeat !important;
 }
 
 // .hero-title {
@@ -14,10 +14,23 @@
 //   animation-fill-mode: both;
 // }
 
+.hero-title {
+  text-shadow: rgba(53, 245, 255, 0.721) 0px 0px 60px;
+  font-family: "Extatica", "Permanent Marker";
+}
+
 .hero-btn {
   transition: 0.5s;
   &:hover {
     color: #fff;
     background: var(--accent);
+  }
+}
+
+.hero-logo,
+.hero-btn {
+  &:hover {
+    animation: headShake 1s;
+    animation-fill-mode: forwards;
   }
 }

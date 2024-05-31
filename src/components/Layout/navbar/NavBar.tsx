@@ -6,7 +6,7 @@ import MenuButtons from "./MenuButtons";
 
 export default function NavBar() {
   return (
-    <div className="absolute z-[9999] min-h-8 w-screen bg-slate-900/50 backdrop-blur-sm navbar-main">
+    <div className="z-[9999] min-h-8 w-screen bg-slate-600/20 backdrop-blur-sm navbar-main fixed">
       <nav className="flex w-full flex-wrap items-center justify-center px-20 py-1">
         <div className="hidden w-4/5 flex-wrap items-center justify-center md:flex">
           <ul className="header-navbar navbar flex w-full flex-wrap items-center justify-center md:justify-around">
@@ -38,7 +38,7 @@ export default function NavBar() {
               </ActiveLink>
             </li>
             <li>
-              <Link href="/" className="nav-btn btn btn-ghost relative px-4">
+              <Link href="/" className="nav-btn btn btn-ghost relative px-4 nav-logo">
                 <Image src={Logo} alt="Logo" width={100} />
               </Link>
             </li>

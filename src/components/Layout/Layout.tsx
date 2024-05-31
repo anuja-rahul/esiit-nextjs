@@ -1,4 +1,5 @@
 import "./../../app/App.scss";
+import Footer from "./footer/Footer";
 // import Header from "./Header";
 import "./index.scss";
 import NavBar from "./navbar/NavBar";
@@ -12,7 +13,7 @@ export default function Layout({ children }: LayoutProps) {
     <main className="layout bg-slate-900 text-white">
       <NavBar />
       {children}
-      <h1>Footer</h1>
+      <Footer />
     </main>
   );
 }

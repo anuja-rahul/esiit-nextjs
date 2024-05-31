@@ -3,6 +3,11 @@
   font-size: 0.9rem;
   transition: all 0.5s;
 
+  &:hover {
+    animation: headShake 1s;
+    animation-fill-mode: forwards;
+  }
+
   &:hover,
   &.active {
     color: var(--primary) !important;

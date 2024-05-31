@@ -18,15 +18,15 @@ export default function AnimatedHero() {
       { opacity: 1, y: 0, duration: 0.8, ease: "bounce.out" },
     );
     tl.fromTo(
-        ".hero-text",
-        { opacity: 0, y: 100 },
-        { opacity: 1, y: 0, duration: 0.8, ease: "power2.inOut" },
-      );
-      tl.fromTo(
-        ".hero-btn",
-        { opacity: 0, y: 100 },
-        { opacity: 1, y: 0, duration: 0.8, ease: "power2.inOut" },
-      );
+      ".hero-text",
+      { opacity: 0, y: 100 },
+      { opacity: 1, y: 0, duration: 0.8, ease: "power2.inOut" },
+    );
+    tl.fromTo(
+      ".hero-btn",
+      { opacity: 0, y: 100 },
+      { opacity: 1, y: 0, duration: 0.8, ease: "power2.inOut" },
+    );
   });
 
   return (
@@ -40,10 +40,10 @@ export default function AnimatedHero() {
             height="150"
             className="hero-logo opacity-0"
           />
-          <h1 className="hero-title opacity-0 bg-gradient-to-r from-blue-950 via-purple-800 to-blue-950 bg-clip-text text-5xl font-bold text-transparent">
+          <h1 className="hero-title bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 bg-clip-text text-5xl font-extrabold text-transparent opacity-0">
             Welcome to ESIIT
           </h1>
-          <p className="py-6 hero-text opacity-0">
+          <p className="hero-text py-6 opacity-0">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
