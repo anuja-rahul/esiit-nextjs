@@ -16,7 +16,7 @@
 
 .hero-title {
   text-shadow: rgba(53, 245, 255, 0.721) 0px 0px 60px;
-  font-family: "Extatica", "Permanent Marker";
+  // font-family: "Extatica", "Permanent Marker";
 }
 
 .hero-btn {
@@ -33,4 +33,14 @@
     animation: headShake 1s;
     animation-fill-mode: forwards;
   }
+}
+
+.About {
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(116, 25, 172, 0.155) 15%,
+      rgba(1, 8, 70, 0.966) 95%
+    ),
+    url("./../assets/images/about-bg.jpg") center repeat !important;
 }

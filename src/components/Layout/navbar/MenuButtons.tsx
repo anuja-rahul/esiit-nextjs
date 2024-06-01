@@ -30,7 +30,7 @@ export default function MenuButtons() {
       type="submit"
       title="btn"
       onClick={() => setclicked(false)}
-      className=""
+      className="ml-4 mt-4"
     >
       <svg
         className="swap-on fill-current"
@@ -46,7 +46,7 @@ export default function MenuButtons() {
 
   return (
     <div
-      className={`mobile right-0  z-[999] rounded-lg bg-slate-800/50 backdrop-blur-sm duration-500 ${clicked ? "h-screen w-screen" : "w-0"}`}
+      className={`mobile right-0  z-[999] rounded-2xl bg-slate-800/60 backdrop-blur-sm duration-500 ${clicked ? "h-screen w-screen" : "w-0"}`}
     >
       {clicked ? closeMenu : burgerMenu}
 
