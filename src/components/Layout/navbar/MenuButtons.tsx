@@ -11,7 +11,7 @@ export default function MenuButtons() {
       type="submit"
       title="btn"
       onClick={() => setclicked(true)}
-      className=""
+      className="menu-icon-btn"
     >
       <svg
         className="swap-off fill-current"
@@ -30,7 +30,7 @@ export default function MenuButtons() {
       type="submit"
       title="btn"
       onClick={() => setclicked(false)}
-      className="ml-4 mt-4"
+      className="menu-icon-btn ml-4 mt-4"
     >
       <svg
         className="swap-on fill-current"
@@ -46,12 +46,12 @@ export default function MenuButtons() {
 
   return (
     <div
-      className={`mobile right-0  z-[999] rounded-2xl bg-slate-800/60 backdrop-blur-sm duration-500 ${clicked ? "h-screen w-screen" : "w-0"}`}
+      className={`add-transition mobile right-0 z-[999] rounded-2xl bg-slate-800/60 backdrop-blur-sm duration-500 ${clicked ? "h-screen w-screen" : "w-0"}`}
     >
       {clicked ? closeMenu : burgerMenu}
 
       <ul
-        className={`mt-16 w-full flex-col items-end justify-center pr-12 ${clicked ? "flex" : "hidden"}`}
+        className={`add-transition mt-16 w-full flex-col items-end justify-center pr-12 ${clicked ? "flex" : "hidden"}`}
       >
         <li>
           {/* <Link href="/" className="nav-btn btn btn-ghost relative px-4">
