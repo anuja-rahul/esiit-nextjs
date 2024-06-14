@@ -30,30 +30,29 @@
 .hero-btn {
   &:hover {
     animation: headShake 1s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: both;
   }
 }
 
 .hero-logo-animate,
-.hero-title{
+.hero-title {
   animation: bounceInDown 1.5s;
   animation-fill-mode: both;
 }
 
-.hero-text,
-.hero-btn{
+.hero-text {
   animation: bounceInUp 1.5s;
   animation-fill-mode: both;
 }
 
-.hero-text{
+.hero-text {
   animation-delay: 1s;
 }
-.hero-btn{
-  animation-delay: 1.4s;
-}
+// .hero-btn{
+//   animation-delay: 1.4s;
+// }
 
-.hero-title{
+.hero-title {
   animation-delay: 0.4s;
 }
 
