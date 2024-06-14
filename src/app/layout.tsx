@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ESIIT",
-  description: "ESIIT homepage",
+  description: "ESIIT homepage pre alpha made for demonstrational purposes.",
   icons: {
     icon: "./favicon.png", // public path
   },
