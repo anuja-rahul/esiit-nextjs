@@ -78,7 +78,7 @@ export default function NavBar() {
               href="/"
               className="btn btn-ghost z-[9999] flex w-2/5 items-center px-0"
             >
-              <Image src={Logo} alt="Logo" width={100} />
+              <Image src={Logo} alt="Logo" width={100} className="menu-logo" />
             </Link>
             <MenuButtons />
           </div>

@@ -27,12 +27,34 @@
   }
 }
 
-.hero-logo,
 .hero-btn {
   &:hover {
     animation: headShake 1s;
     animation-fill-mode: forwards;
   }
+}
+
+.hero-logo-animate,
+.hero-title{
+  animation: bounceInDown 1.5s;
+  animation-fill-mode: both;
+}
+
+.hero-text,
+.hero-btn{
+  animation: bounceInUp 1.5s;
+  animation-fill-mode: both;
+}
+
+.hero-text{
+  animation-delay: 1s;
+}
+.hero-btn{
+  animation-delay: 1.4s;
+}
+
+.hero-title{
+  animation-delay: 0.4s;
 }
 
 .About {

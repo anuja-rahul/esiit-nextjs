@@ -39,3 +39,13 @@
   animation: fadeIn 1.5s !important;
   animation-fill-mode: forwards;
 }
+
+.menu-icon-btn,
+.menu-logo {
+  transition: scale 0.4s;
+  &:hover {
+    animation: rubberBand 1s;
+    animation-fill-mode: both;
+    scale: 1.05;
+  }
+}
