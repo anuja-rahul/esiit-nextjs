@@ -12,13 +12,14 @@ export default function About() {
   useGSAP(() => {
     gsap.fromTo(
       ".about-animate",
-      { y: 200, opacity: 0 },
+      { y: 200, opacity: 0, filter: "blur(4px)" },
       {
         y: 0,
         opacity: 1,
         ease: "power2.inOut",
         duration: 1.5,
         stagger: 0.2,
+        filter: "blur(0px)",
         scrollTrigger: {
           trigger: ".About",
           start: "top bottom-=40%",
