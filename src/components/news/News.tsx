@@ -32,7 +32,7 @@ export default function News() {
 
   return (
     <main className="News flex h-auto min-h-[80vh] w-full flex-col items-center justify-center p-6">
-      <h1 className="mb-8 mt-12 font-['Permanent_Marker'] text-5xl font-semibold italic md:mt-8">
+      <h1 className="section-title mb-8 mt-12 font-['Permanent_Marker'] text-5xl font-semibold italic md:mt-8">
         News
       </h1>
       <p className="mb-4 text-balance text-center">
