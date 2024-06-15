@@ -10,7 +10,7 @@ import "./index.scss";
 
 export default function Footer() {
   return (
-    <div className="relative z-[999] h-auto min-h-[150px] w-screen py-4 bg-slate-800/40">
+    <div className="relative z-[999] h-auto min-h-[150px] w-full py-4 bg-slate-800/40">
       <div className="content flex h-full w-full flex-col items-center justify-evenly">
         <div className="footer-links mb-2 mt-4 flex w-3/5 flex-row flex-wrap items-center justify-center gap-2 text-balance text-center text-neutral sm:justify-between md:flex-row">
           <Link href="/" className="p-1 nav-btn btn btn-ghost">

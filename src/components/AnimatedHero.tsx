@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function AnimatedHero() {
   useGSAP(() => {
-    const tl = gsap.timeline({ delay: 0.8 });
+    const tl = gsap.timeline({ delay: 1.1 });
     // tl.fromTo(
     //   ".hero-logo-animate",
     //   { opacity: 0, y: -80 },
@@ -55,7 +55,7 @@ export default function AnimatedHero() {
           </p>
           <Link
             href="/#About"
-            className="hero-btn btn btn-info rounded-xl border-accent opacity-0"
+            className="hero-btn btn rounded-2xl btn-info border-accent opacity-0"
           >
             Get Started
           </Link>
