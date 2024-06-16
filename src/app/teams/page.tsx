@@ -1,4 +1,8 @@
 import "./index.scss";
+
+export const metadata = {
+  title: "ESIIT - Teams",
+};
 export default function Teams() {
   return (
     <>

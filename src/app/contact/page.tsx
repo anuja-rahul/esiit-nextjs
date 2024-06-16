@@ -1,5 +1,9 @@
 import "./index.scss";
 
+export const metadata = {
+  title: "ESIIT - Contact us",
+};
+
 export default function Contact() {
   return (
     <>

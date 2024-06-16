@@ -82,3 +82,10 @@
 .section-title{
   font-family: "Permanent Marker", sans-serif !important;
 }
+
+.news-card{
+  transition: transform 0.4s;
+  &:hover{
+    transform: translateY(-6px) !important;
+  }
+}

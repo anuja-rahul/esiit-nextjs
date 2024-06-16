@@ -18,7 +18,7 @@ export default function News() {
         x: 0,
         opacity: 1,
         ease: "power2.inOut",
-        duration: 1.5,
+        duration: 1.2,
         stagger: 0.2,
         filter: "blur(0px)",
         scrollTrigger: {
@@ -64,7 +64,7 @@ export default function News() {
               />
             </figure>
             <div className="card-body">
-              <h2 className="card-title text-balance text-center font-['Permanent_Marker'] text-lg font-extralight leading-4 text-info-content/75 lg:text-xl">
+              <h2 className="card-title text-balance text-center text-lg font-extrabold leading-4 text-slate-900 lg:text-xl">
                 {news.title}
               </h2>
               <div className="mb-2 flex w-full flex-row flex-wrap items-center justify-center gap-2">

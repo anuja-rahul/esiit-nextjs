@@ -1,4 +1,9 @@
 import "./index.scss";
+
+export const metadata = {
+  title: "ESIIT - Events",
+};
+
 export default function Events() {
   return (
     <>

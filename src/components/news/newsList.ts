@@ -16,7 +16,7 @@ export const newsData = [
     imgURL:
       "https://img.freepik.com/free-vector/gradient-esports-gaming-logo-collection_23-2148967981.jpg?t=st=1718471282~exp=1718474882~hmac=8cc3cde37e109d1824a5d24c20377558e62af05d402e8f1f9880de451eef4326&w=996",
     newsURL: "/teams",
-    relavance: ["Recruitments", "CS:2", "LoL", "Valorant", "Opportunities"],
+    relavance: ["Recruitments", "CS:2", "LoL", "Valorant"],
     new: 1,
   },
   {

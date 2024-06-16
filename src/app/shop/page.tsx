@@ -1,4 +1,8 @@
 import "./index.scss";
+
+export const metadata = {
+  title: "ESIIT - Shop",
+};
 export default function Shop() {
   return (
     <>

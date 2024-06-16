@@ -1,4 +1,8 @@
 import "./index.scss";
+
+export const metadata = {
+  title: "ESIIT - Gallery",
+};
 export default function Gallery() {
   return (
     <>
