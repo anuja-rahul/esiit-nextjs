@@ -1,8 +1,11 @@
+import "./index.scss";
 export default function Gallery() {
   return (
     <>
-      <main className="min-h-screen bg-transparent flex items-center justify-center">
-        <h1 className="text-2xl font-extrabold font-['Extatica']">This is the Gallery page.</h1>
+      <main className="flex min-h-screen items-center justify-center bg-transparent">
+        <h1 className="font-['Extatica'] text-2xl font-extrabold">
+          This is the Gallery page.
+        </h1>
       </main>
     </>
   );
