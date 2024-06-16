@@ -34,7 +34,7 @@ export default function About() {
       id="About"
       className="About flex h-auto min-h-screen flex-col flex-wrap items-center justify-center p-12"
     >
-      <h1 className="mb-12 mt-12 font-['Permanent_Marker'] text-5xl font-semibold italic md:mt-0">
+      <h1 className="section-title mb-12 mt-12 font-['Permanent_Marker'] text-5xl font-semibold italic md:mt-0">
         About us
       </h1>
       <div className="flex h-full w-full flex-col items-center justify-center text-xs md:w-4/5 md:flex-row md:text-lg">
