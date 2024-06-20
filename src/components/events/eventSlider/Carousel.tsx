@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import { eventBanners } from "./eventBanner";
+// import { eventBanners } from "./eventBannerData";
 import "../../events/index.scss";
 
 const Carousel = () => {
