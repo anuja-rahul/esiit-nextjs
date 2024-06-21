@@ -1,0 +1,92 @@
+.event {
+//     width: 100%;
+//     height: 100%;
+//     z-index: 1 !important;
+    background: 
+      radial-gradient(
+        circle at center,
+        rgba(116, 25, 172, 0.355) 15%,
+        rgba(1, 8, 70, 0.866) 95%
+      ),
+//       url("./../../assets/images/event-bg.jpg") center no-repeat !important;
+//       background-size: contain;
+//       overflow-x: hidden !important;
+  }
+
+#eventCarousel{
+    position: relative;
+    width: 100%;
+
+    .carousel-indicators{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        margin: 0 15%;
+        margin-bottom: 1rem;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        padding: 0;
+    }
+
+    // .carousel-indicators button {
+    //     margin: 0 3px;
+    //     box-sizing: content-box;
+    //     height: 3px;
+    //     width: 30px;
+    //     flex: 0 1 auto;
+    //     cursor: pointer;
+    //     border: 0;
+    //     border-top: 10px solid transparent;
+    //     background-color: white;
+    //     background-color: padding-box;
+    //     padding: 0;
+    //     text-indent: -999px;
+    //     opacity: 0.5;
+    //     transition: opacity 0.6s cubic-bezier(0.25,0.1,0.25,1.0) ease;
+    // }
+
+    .carousel-items {
+        position: relative;
+        top: 90px;
+        width: 100%;
+        overflow: hidden;
+
+        &::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+    }
+
+    .carousel-item {
+        position: relative;
+        float: left;
+        margin-right: -100%;
+        width: 100%;
+        transition: transform 0.6s ease-in-out;
+        backface-visibility: hidden;
+    }
+
+    .carousel-item.hidden {
+        display: none;
+    }
+
+    .carousel-img {
+        display: block;
+        width: 100%;
+        opacity: 0.87;
+    }
+}
+
+// // urlPin
+// .perspective{
+//     perspective: 1000px;
+//     // transform: "rotateX(70deg) translateZ(0deg)"
+// }
+
+// .transform {
+//     transform: transform,
+// }
