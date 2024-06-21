@@ -5,11 +5,11 @@ import "../../events/index.scss";
 
 const PastEvents = () => {
   return (
-    <div className="event pb-20">
-      <h1 className="pt-60 text-center font-['Extatica'] text-4xl font-extrabold">
+    <div className="event p-40">
+      <h1 className=" p-20 text-center font-['Extatica'] text-4xl font-extrabold">
         PAST EVENTS
       </h1>
-      <div className="mt-10 flex flex-wrap items-center justify-center gap-x-24 p-4">
+      <div className="mt-5 flex flex-wrap items-center justify-center gap-x-40 p-5">
         {PastEventData.map(({ id, imgLink, title, description, eventLink }) => (
           <div
             key={id}
