@@ -1,10 +1,14 @@
 import React from "react";
 import { PastEventData } from "./pastEventList";
 import { PinContainer } from "./urlPin";
+import "../../events/index.scss";
 
 const PastEvents = () => {
   return (
-    <div className="pb-20">
+    <div className="event pb-20">
+      <h1 className="pt-60 text-center font-['Extatica'] text-4xl font-extrabold">
+        PAST EVENTS
+      </h1>
       <div className="mt-10 flex flex-wrap items-center justify-center gap-x-24 p-4">
         {PastEventData.map(({ id, imgLink, title, description, eventLink }) => (
           <div
