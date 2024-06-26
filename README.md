@@ -6,6 +6,7 @@
 ![DaisyUI](https://img.shields.io/badge/-Daisy_UI-000?style=for-the-badge&logo=daisyui)
 ![SASS](https://img.shields.io/badge/-SASS-000?style=for-the-badge&logo=sass)
 ![GSAP](https://img.shields.io/badge/-GSAP-000?style=for-the-badge&logo=greensock)
+![FRAMER_MOTION](https://img.shields.io/badge/-framer_motion-000?style=for-the-badge&logo=framer)
 
 # esiit-nextjs 🌐🧑‍💻
 
