@@ -23,7 +23,6 @@
 &nbsp;  
 [![Project-Status](https://img.shields.io/badge/Project%20Status-working_on_page_layout-yellow.svg)](https://github.com/anuja-rahul/esiit-nextjs)
 &nbsp;  
-[![Project-Version](https://img.shields.io/badge/Version-v0.1-green.svg)](https://github.com/anuja-rahul/esiit-nextjs)
 
 #### Rough template made for esiit iit website.
 
